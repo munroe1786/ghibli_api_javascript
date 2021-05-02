@@ -46,7 +46,9 @@ request.onload = function () {
       card.appendChild(p)
     })
   } else {
-    console.log('error')
+    const errorMessage = document.createElement('error')
+    errorMessage.textContent = `Oh no, something went wrong!`
+    app.appendChild(errorMessage)
   }
 }
 
