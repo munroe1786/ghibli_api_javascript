@@ -11,10 +11,10 @@
     // Do something for an error here
   //})
 
-const app = document.getElementById('root')
+const app = document.getElementById('root');
 
-const logo = document.createElement('img')
-logo.src = 'logo.png'
+const logo = document.createElement('img');
+logo.src = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2Fc%2Fca%2FStudio_Ghibli_logo.svg%2F1200px-Studio_Ghibli_logo.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStudio_Ghibli&tbnid=U7MOowdpqYHy-M&vet=12ahUKEwixmsGYvazwAhWPhK0KHZVwDPIQMygAegUIARC9AQ..i&docid=YGHRdLByY8ZjoM&w=1200&h=576&q=studio%20ghibli%20logo&ved=2ahUKEwixmsGYvazwAhWPhK0KHZVwDPIQMygAegUIARC9AQ"
   
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
